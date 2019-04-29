@@ -3,12 +3,10 @@ html {
     /* Reset para REMS -62.5% = 10 px de 16px*/
 }
 
-
 *, *:before, *:after {
     box-sizing: inherit;
     /* corrige el padding y margin de los blocks*/
 }
-
 
 /* Fuentes */
 
@@ -61,7 +59,7 @@ h4 {
     text-align: center;
 }
 
-.d-block{
+.d-block {
     display: block!important;
 }
 
@@ -73,9 +71,9 @@ h4 {
     font-weight: 700;
     text-decoration: none;
     font-size: 1.8rem;
-    padding: 1rem 3rem;;
+    padding: 1rem 3rem;
+    ;
     margin-top: 3rem;
-   
     display: inline-block;
     /*modificamos el display para darle tamaño, default display: inline;*/
     text-align: center;
@@ -180,6 +178,22 @@ h4 {
     font-weight: 700;
 }
 
+.iconos-caracteristicas {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos-caracteristicas li {
+    flex: 1;
+    display: flex;
+}
+
+.iconos-caracteristicas li img {
+    margin-right: 2rem;
+}
+
 .ver-todas {
     display: flex;
     justify-content: flex-end;
@@ -192,4 +206,48 @@ h4 {
     background-position: center center;
     background-size: cover;
     height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto {
+    flex: 1;
+    color: #ffffff;
+}
+
+.contenido-contacto p {
+    font-size: 1.8rem;
+}
+
+/** Sexxion inferior**/
+
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior.blog {
+    flex-basis: 60%;
+}
+
+.seccion-inferior.testimoniales {
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-blog.imagen {
+    flex-basis: 40%;
+}
+
+.entrada-blog.texto-entrada {
+    flex-basis: calc(60% -3rem);
+}
+
+.texto-entrada h4 {
+    margin: 0;
+    line-height: 1.4;
 }
