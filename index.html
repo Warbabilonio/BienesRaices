@@ -30,7 +30,7 @@
         </div>
         <!--contenedor-->
     </header>
-    <section class="contenedor">
+    <section class="contenedor seccion">
         <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
 
         <div class="iconos-nosotros">
@@ -130,16 +130,18 @@
             <a href="contacto.html" class="boton boton-amarillo">Contáctanos</a>
         </div>
     </section>
-    <div class="seccion-inferior contenedor">
+    <div class="seccion-inferior contenedor seccion">
         <section class="blog">
-            <h3>Nuestro Blog</h3>
+            <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
             <article class="entrada-blog">
                 <div class="imagen">
                     <img src="img/blog1.jpg" alt="blog1">
                 </div>
                 <div class="texto-entrada">
-                    <h4>Terraza en el techo de tu casa</h4>
-                    <p>Escrito el: <em>20/10/2019</em> por: <em>Admin</em></p>
+                    <a href="entrada.html">
+                        <h4>Terraza en el techo de tu casa</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span> por: <span>Admin</span></p>
                     <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y
                         ahorrando
                         dinero
@@ -151,8 +153,10 @@
                     <img src="img/blog2.jpg" alt="blog2">
                 </div>
                 <div class="texto-entrada">
-                    <h4>Guía para la decoración de tu hogar</h4>
-                    <p>Escrito el: <em> 20/10/2019 </em>por: <em> Admin</em></p>
+                    <a href="entrada.html">
+                        <h4>Guía para la decoración de tu hogar</h4>
+                    </a>
+                    <p>Escrito el: <span> 20/10/2019 </span>por: <span> Admin</span></p>
                     <p>Maximiza el espacio de tu hogar con esta guía, aprende a combinar los colores y muebles para
                         darle
                         vida a
@@ -162,24 +166,29 @@
             </article>
         </section>
         <section class="testimoniales">
-            <h3>Testimoniales</h3>
-            <blockquote>
-                El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple
-                con
-                todas
-                mis espectativas
-            </blockquote>
-            <p>Jonel Guerrero</p>
+            <h3 class="centrar-texto fw-300">Testimoniales</h3>
+            <div class="testimonial">
+                <blockquote>
+                    El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron
+                    cumple
+                    con
+                    todas
+                    mis espectativas
+                </blockquote>
+                <p>Jonel Guerrero</p>
+            </div>
         </section>
     </div>
-    <footer>
-        <nav class="navegacion">
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contactos</a>
-        </nav>
-        <p>Todos los Derechos Reservados 2019 &copy;</p>
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contactos</a>
+            </nav>
+            <p class="copyrigth">Todos los Derechos Reservados 2019 &copy;</p>
+        </div>
     </footer>
 
 </body>
